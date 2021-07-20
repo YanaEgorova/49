@@ -1,0 +1,29 @@
+.hero__wrapper {
+    background-color: var(--first-brand-color);
+}
+.hero {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    line-height: 1;
+    position: relative;
+}
+.hero__title {
+    font-size: 4rem;
+    letter-spacing: .3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    font-family: var(--title-font);
+}
+@media screen and (min-width: 1024px)  {
+    .hero {
+        padding: 15rem 0 15rem;
+    }
+    .hero__title {
+        font-size:8rem;
+    }
+    .hero__link {
+        padding: 3rem 4rem;
+        font-size: 1.6rem;
+    }
+}

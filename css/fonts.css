@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-Book.eot');
+    src: url('../fonts/Dosis-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Dosis-Book.woff2') format('woff2'),
+        url('../fonts/Dosis-Book.woff') format('woff'),
+        url('../fonts/Dosis-Book.ttf') format('truetype'),
+        url('../fonts/Dosis-Book.svg#Dosis-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ace Sans';
+    src: url('../fonts/AceSansBlack.eot');
+    src: url('../fonts/AceSansBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AceSansBlack.woff2') format('woff2'),
+        url('../fonts/AceSansBlack.woff') format('woff'),
+        url('../fonts/AceSansBlack.ttf') format('truetype'),
+        url('../fonts/AceSansBlack.svg#AceSansBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
