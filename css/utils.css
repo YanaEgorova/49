@@ -96,8 +96,7 @@ button:focus {
   font-weight: 900;
   display: inline-block;
   transition: all .3s ease-in-out;
-  border: .4rem solid var(--second-brand-color);
-  background-color: transparent;
+  background-color: var(--second-brand-color);
   color: var(--sub-text-color);
   margin-left: auto;
   margin-right: auto;
@@ -114,7 +113,9 @@ button:focus {
     font-size: 2.2rem;
   }
   .btn:hover, .btn:focus {
-    background-color: var(--second-brand-color);
+    -webkit-box-shadow: 1rem 1rem 0rem 0rem  var(--second-brand-color);
+-moz-box-shadow: 1rem 1rem 0rem 0rem  var(--second-brand-color);
+box-shadow: 1rem 1rem 0rem 0rem  var(--second-brand-color);
   }
   .list {
     display: flex;
